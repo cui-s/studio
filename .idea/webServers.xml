@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="36d1ac1f-37ba-4d09-954e-5e8fc389da15" name="aws-i-3c4f55a9" url="http://ec2-52-38-14-16.us-west-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-52-38-14-16.us-west-2.compute.amazonaws.com" port="22" privateKey="$PROJECT_DIR$/../aws_keypair/shinancuikeypair.pem" rootFolder="/home/ubuntu/laravel" accessType="SFTP" username="ubuntu" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
